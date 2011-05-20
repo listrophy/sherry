@@ -1,6 +1,6 @@
 h1. Sherry?
 
-The proper response to this is always "Rather." Therefore, this gem, when loaded, attaches the method @sherry?@ to all objects. It will always return the string "Rather."
+The proper response to this is always "Rather." Therefore, this gem, when loaded, attaches the method @sherry?@ and @alfred?@ to all objects. @sherry?@ will always return the string "Rather."  @alfred?@ will always return the string "Yes, m'lord?"
 
 h2. Install
 
@@ -9,6 +9,17 @@ bc. gem install sherry
 or in your Gemfile:
 
 bc. gem 'sherry'
+
+h2. Usage
+
+bc. irb> require 'sherry'
+=> true
+
+bc. irb> Object.sherry?
+=> "Rather."
+
+bc. irb> Object.alfred?
+=> "Yes, m'lord?"
 
 h2. Acknowledgements
 
