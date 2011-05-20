@@ -12,10 +12,9 @@ bc. gem 'sherry'
 
 h2. Acknowledgements
 
-Written by: Bradley Grzesiak of "Bendyworks":http://bendyworks.com
+Written by: "Bradley Grzesiak":http://github.com/listrophy and "Devin Walters":http://github.com/devn of "Bendyworks":http://bendyworks.com
 
 Inspired by a night after RailsConf 2011 with:
-* "Devin Walters":http://github.com/devn
 * "Jason Stirk":http://github.com/jstirk
 * "Mark Glossop":http://github.com/Cueball
 * "Mikel Lindsaar":http://github.com/mikel
